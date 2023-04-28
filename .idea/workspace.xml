@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="227c55f1-1b6d-43c5-89dc-45e267d20c7e" name="Changes" comment="setup">
-      <change afterPath="$PROJECT_DIR$/Data/Wind_data_clean.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Arff2Csv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AttrSelection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AttributeFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CSV2Arff.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DiscretizeAttribute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sparse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weka-stable-3.6.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AttInst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataMiningProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataMiningProject.iml" afterDir="false" />
     </list>
@@ -37,17 +30,11 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/PC/IdeaProjects/DataMiningProject/Data",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\PC\IdeaProjects\DataMiningProject\Data" />
@@ -56,16 +43,16 @@
       <recent name="C:\Users\PC\IdeaProjects\DataMiningProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AttrSelection">
-    <configuration name="AttrSelection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AttrSelection" />
+  <component name="RunManager" selected="Application.AttInst">
+    <configuration name="AttInst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AttInst" />
       <module name="DataMiningProject" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AttributeFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AttributeFilter" />
+    <configuration name="AttrSelection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AttrSelection" />
       <module name="DataMiningProject" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,20 +72,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sparse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sparse" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="DataMiningProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AttInst" />
         <item itemvalue="Application.AttrSelection" />
-        <item itemvalue="Application.DiscretizeAttribute" />
-        <item itemvalue="Application.Sparse" />
-        <item itemvalue="Application.AttributeFilter" />
         <item itemvalue="Application.CSV2Arff" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.DiscretizeAttribute" />
       </list>
     </recent_temporary>
   </component>
@@ -135,6 +133,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setup" />
