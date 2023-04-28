@@ -1,14 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="227c55f1-1b6d-43c5-89dc-45e267d20c7e" name="Changes" comment="" />
+    <list default="true" id="227c55f1-1b6d-43c5-89dc-45e267d20c7e" name="Changes" comment="setup">
+      <change afterPath="$PROJECT_DIR$/Data/Wind_data_clean.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arff2Csv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AttrSelection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AttributeFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CSV2Arff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DiscretizeAttribute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sparse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weka-stable-3.6.7.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataMiningProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataMiningProject.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2P2axYNmMAisy6N3zIV8ZPJbqBP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -20,9 +41,67 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/PC/IdeaProjects/DataMiningProject/Data",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\IdeaProjects\DataMiningProject\Data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\IdeaProjects\DataMiningProject" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AttrSelection">
+    <configuration name="AttrSelection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AttrSelection" />
+      <module name="DataMiningProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AttributeFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AttributeFilter" />
+      <module name="DataMiningProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CSV2Arff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CSV2Arff" />
+      <module name="DataMiningProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscretizeAttribute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DiscretizeAttribute" />
+      <module name="DataMiningProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sparse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sparse" />
+      <module name="DataMiningProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AttrSelection" />
+        <item itemvalue="Application.DiscretizeAttribute" />
+        <item itemvalue="Application.Sparse" />
+        <item itemvalue="Application.AttributeFilter" />
+        <item itemvalue="Application.CSV2Arff" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,8 +110,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682657877718</updated>
+      <workItem from="1682657879162" duration="6568000" />
     </task>
+    <task id="LOCAL-00001" summary="setup">
+      <created>1682657920163</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682657920163</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -44,5 +135,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="setup" />
   </component>
 </project>
