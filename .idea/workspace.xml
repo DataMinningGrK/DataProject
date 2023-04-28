@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="227c55f1-1b6d-43c5-89dc-45e267d20c7e" name="Changes" comment="setup">
-      <change afterPath="$PROJECT_DIR$/src/AttInst.java" afterDir="false" />
+    <list default="true" id="227c55f1-1b6d-43c5-89dc-45e267d20c7e" name="Changes" comment="Done">
+      <change afterPath="$PROJECT_DIR$/src/Classification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataMiningProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DataMiningProject.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +42,7 @@
       <recent name="C:\Users\PC\IdeaProjects\DataMiningProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AttInst">
+  <component name="RunManager" selected="Application.Classification">
     <configuration name="AttInst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AttInst" />
       <module name="DataMiningProject" />
@@ -65,15 +64,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiscretizeAttribute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DiscretizeAttribute" />
+    <configuration name="Classification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Classification" />
       <module name="DataMiningProject" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="DiscretizeAttribute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DiscretizeAttribute" />
       <module name="DataMiningProject" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Classification" />
+        <item itemvalue="Application.DiscretizeAttribute" />
         <item itemvalue="Application.AttInst" />
         <item itemvalue="Application.AttrSelection" />
         <item itemvalue="Application.CSV2Arff" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.DiscretizeAttribute" />
       </list>
     </recent_temporary>
   </component>
@@ -117,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682657920163</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Done">
+      <created>1682697574846</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682697574846</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +143,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="setup" />
+    <MESSAGE value="Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done" />
   </component>
 </project>
