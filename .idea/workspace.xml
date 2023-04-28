@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="227c55f1-1b6d-43c5-89dc-45e267d20c7e" name="Changes" comment="Done">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ClassifierWithFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Regression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,16 +43,9 @@
       <recent name="C:\Users\PC\IdeaProjects\DataMiningProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClassifierWithFilter">
+  <component name="RunManager" selected="Application.Regression">
     <configuration name="AttInst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AttInst" />
-      <module name="DataMiningProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AttrSelection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AttrSelection" />
       <module name="DataMiningProject" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,6 +72,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Regression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Regression" />
+      <module name="DataMiningProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -93,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Regression" />
         <item itemvalue="Application.ClassifierWithFilter" />
         <item itemvalue="Application.Classification" />
         <item itemvalue="Application.DiscretizeAttribute" />
         <item itemvalue="Application.AttInst" />
-        <item itemvalue="Application.AttrSelection" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682700379630</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Done">
+      <created>1682701130356</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682701130356</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
