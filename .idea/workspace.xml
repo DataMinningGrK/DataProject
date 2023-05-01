@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="227c55f1-1b6d-43c5-89dc-45e267d20c7e" name="Changes" comment="Done" />
+    <list default="true" id="227c55f1-1b6d-43c5-89dc-45e267d20c7e" name="Changes" comment="Done">
+      <change afterPath="$PROJECT_DIR$/src/FpGrowth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +30,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Intro-data-mining-lab/Project/Ecommerce" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -41,8 +49,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Regression">
-    <configuration name="AttInst" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AttInst" />
+    <configuration name="AttrSelection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AttrSelection" />
+      <module name="DataMiningProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CSV2Arff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CSV2Arff" />
       <module name="DataMiningProject" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -62,13 +77,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DiscretizeAttribute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DiscretizeAttribute" />
-      <module name="DataMiningProject" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Regression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Regression" />
       <module name="DataMiningProject" />
@@ -76,13 +84,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -90,10 +100,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Regression" />
+        <item itemvalue="Application.AttrSelection" />
+        <item itemvalue="Application.CSV2Arff" />
         <item itemvalue="Application.ClassifierWithFilter" />
         <item itemvalue="Application.Classification" />
-        <item itemvalue="Application.DiscretizeAttribute" />
-        <item itemvalue="Application.AttInst" />
       </list>
     </recent_temporary>
   </component>
@@ -106,6 +116,7 @@
       <option name="presentableId" value="Default" />
       <updated>1682657877718</updated>
       <workItem from="1682657879162" duration="6568000" />
+      <workItem from="1682898933240" duration="1545000" />
     </task>
     <task id="LOCAL-00001" summary="setup">
       <created>1682657920163</created>

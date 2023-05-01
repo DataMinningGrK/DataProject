@@ -19,7 +19,11 @@ public class ClassifyInstance {
         NaiveBayes nb = new NaiveBayes();
         nb.buildClassifier(trainDataset);
 
+<<<<<<< HEAD
         DataSource source1 = new DataSource("Data/Wind_data_clean_unknown.arff");
+=======
+        DataSource source1 = new DataSource("Data/Wind_data_clean.arff");
+>>>>>>> origin/main
         Instances testDataset = source1.getDataSet();
         testDataset.setClassIndex(testDataset.numAttributes()-1);
 
