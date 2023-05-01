@@ -18,7 +18,7 @@ import weka.core.converters.ConverterUtils.DataSource;
 public class AssocRules{
 	public static void main(String args[]) throws Exception{
 		//load dataset
-		String dataset = "";
+		String dataset = "Data/Wind_data_clean.arff";
 		DataSource source = new DataSource(dataset);
 		//get instances object 
 		Instances data = source.getDataSet();

@@ -1,10 +1,12 @@
 
+import weka.classifiers.bayes.NaiveBayes;
 import weka.classifiers.functions.SMOreg;
 import weka.core.Instance;
 import weka.core.Instances;
 import weka.core.converters.ConverterUtils.DataSource;
 public class ClassifyInstance {
     public static void main(String args[]) throws Exception{
+        /*
         //load training dataset
         DataSource source = new DataSource("Data/Wind_data_clean.arff");
         Instances trainDataset = source.getDataSet();
@@ -37,10 +39,11 @@ public class ClassifyInstance {
 
             System.out.println(actualValue+", "+predSMO);
         }
+        */
 
-		/*
+
 		//load training dataset
-		DataSource source = new DataSource("");
+		DataSource source = new DataSource("Data/Wind_data_clean.arff");
 		Instances trainDataset = source.getDataSet();
 		//set class index to the last attribute
 		trainDataset.setClassIndex(trainDataset.numAttributes()-1);
@@ -56,7 +59,7 @@ public class ClassifyInstance {
 		NaiveBayes nb = new NaiveBayes();
 		nb.buildClassifier(trainDataset);
 		//load new dataset
-		DataSource source1 = new DataSource("-unknown.arff");
+		DataSource source1 = new DataSource("Data/Wind_data_clean_unknown.arff");
 		Instances testDataset = source1.getDataSet();
 		//set class index to the last attribute
 		testDataset.setClassIndex(testDataset.numAttributes()-1);
@@ -76,6 +79,6 @@ public class ClassifyInstance {
 			String predString = testDataset.classAttribute().value((int) predNB);
 			System.out.println(actual+", "+predString);
 		}
-		 */
+
     }
 }

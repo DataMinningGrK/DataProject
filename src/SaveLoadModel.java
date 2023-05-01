@@ -6,9 +6,9 @@ import weka.classifiers.functions.SMOreg;
 
 public class SaveLoadModel {
 	public static void main(String args[]) throws Exception{
-		/*
+
 		//load training dataset
-		DataSource source = new DataSource("/home/likewise-open/ACADEMIC/csstnns/Desktop/qdb1.arff");
+		DataSource source = new DataSource("Data/Wind_data_clean.arff");
 		Instances trainDataset = source.getDataSet();	
 		//set class index to the last attribute
 		trainDataset.setClassIndex(trainDataset.numAttributes()-1);
@@ -19,9 +19,9 @@ public class SaveLoadModel {
 		//output model
 		System.out.println(smo);
 		//save model
-		weka.core.SerializationHelper.write("my_smo_model.model", smo);
-		*/
-		
+		weka.core.SerializationHelper.write("Data/my_smo_model.model", smo);
+
+		/*
 		//load model
 		//observe the type-casting
 		SMOreg smo2 = (SMOreg) weka.core.SerializationHelper.read("my_smo_model.model");
@@ -41,7 +41,7 @@ public class SaveLoadModel {
 
 		System.out.println(actualValue+", "+predSMO);
 		
-
+*/
 	}
 
 }

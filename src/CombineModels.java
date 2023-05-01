@@ -27,7 +27,7 @@ import weka.core.converters.ConverterUtils.DataSource;
 public class CombineModels {
 	public static void main(String[] args) throws Exception {
 		//load dataset
-		String data = "";
+		String data = "Data/Wind_data_clean.arff";
 		DataSource source = new DataSource(data);
 		//get instances object 
 		Instances trainingData = source.getDataSet();
