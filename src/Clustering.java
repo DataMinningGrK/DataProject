@@ -19,7 +19,7 @@ import weka.core.converters.ConverterUtils.DataSource;
 public class Clustering {
 	public static void main(String args[]) throws Exception{
 		//load dataset
-		String dataset = "";
+		String dataset = "Data/Wind_data_clean.arff";
 		DataSource source = new DataSource(dataset);
 		Instances data = source.getDataSet();
 		SimpleKMeans model = new SimpleKMeans();
@@ -29,7 +29,7 @@ public class Clustering {
 
 		ClusterEvaluation clsEval = new ClusterEvaluation();
 		//load dataset
-		String dataset1 = "";
+		String dataset1 = "Data/Wind_data_clean_unknown.arff";
 		DataSource source1 = new DataSource(dataset1);
 		//get instances object 
 		Instances data1 = source1.getDataSet();
